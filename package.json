@@ -1,9 +1,9 @@
 {
-  "name": "meet-canvas-animation",
+  "name": "Invaders",
   "version": "0.0.1",
   "private": true,
-  "description": "Base exercise to discover animation with <canvas>.",
-  "author": "Pierre-Antoine \"leny\" Delnatte <info@flatland.be>",
+  "description": "projet jeux vidéo pour le cours de MMI",
+  "author": "Eric Closquet",
   "devDependencies": {
     "babel-plugin-iife-wrap": "^1.1.0",
     "babel-preset-es2015": "^6.22.0",
