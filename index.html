@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Invaders</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="Jeux vidéo Space Invaders réalisé pour le cours de MMI">
+        <meta name="author" content="Eric Closquet">
+        <meta name="keywords" content="Jeux vidéo, space invaders">
+        <link rel="shortcut icon" href="favicon.ico">
+
+        <style>
+            body {
+                background: url( 'resources/bcg.jpg' );
+            }
+
+            h1 {
+                font-family: 'Fira Sans';
+                letter-spacing: 4px;
+                color: turquoise;
+                text-align: center;
+                text-shadow: 0 0 2px rgba( 0, 0, 0, 0.8 );
+                text-transform: uppercase;
+            }
+
+            canvas {
+                display: block;
+                margin: 20px auto;
+                border: 1px solid rgba( 0, 50, 100, 0.4 );
+                box-shadow: 0 0 20px 0 rgba( 0, 0, 0, 0.4 );
+            }
+
+            ::selection {
+                background: transparent;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Invaders</h1>
+
+        <canvas id="game" width="512" height="448"></canvas>
+
+        <script src="bin/app.min.js"></script>
+    </body>
+</html>
