@@ -48,10 +48,6 @@ class Invaders {
     animate() {
         this.animationRequestId = window.requestAnimationFrame( this.animate.bind( this ) );
 
-        // check game state
-        if ( this.started ) {
-            this.checkState();
-        }
         // update elements
         if ( this.started ) {
             this.ship.bullets.forEach( ( oBullet, ) => {
